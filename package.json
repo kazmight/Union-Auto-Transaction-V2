@@ -1,0 +1,27 @@
+{
+  "name": "union-crosschain-script",
+  "version": "1.0.0",
+  "description": "Skrip untuk melakukan transfer lintas rantai melalui Union Protocol.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "union",
+    "cross-chain",
+    "evm",
+    "cosmos",
+    "ibc",
+    "sei",
+    "xion"
+  ],
+  "author": "Kazmight",
+  "license": "ISC",
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.32.3",
+    "@cosmjs/stargate": "^0.32.3",
+    "@unionlabs/client": "^0.1.2",
+    "dotenv": "^16.4.5",
+    "viem": "^2.13.8"
+  }
+}
